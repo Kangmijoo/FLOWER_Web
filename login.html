@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 	<title>로그인</title>
 	<link rel='icon' type="images/png" href="images/logo.png">
-	
 		<style>
-		
+			body {
+				margin: 0;
+			}		
 			#header {
 				width: 100%;  /* 너비 */
 				height: 200px;   /* 실제 내용이 없으므로 높이 지정 */
@@ -14,9 +15,8 @@
 			}
 			
 			#navi {
-				position:absolute;
+				display: flex;
 				list-style-type:none;			/*불릿 없앰*/
-				width:100%;		/*내비 넖이*/
 				height:50px;		/*내비 높이*/
 				background:pink;		/*내비 색상*/
 				border-radius:2em;		/*내비 모서리 둥글기*/
@@ -48,7 +48,6 @@
 						margin:0px;  	/* 바깥 여백 없음 */
 						border-radius:1.4em;   	/* 링크의 모서리를 둥글게 */
 					}
-				  
 
 				#navi ul {  
 					margin:0; /* 서브 메뉴 바깥 여백 없음 */
@@ -118,7 +117,7 @@
 			
 			
 			/*배경*/
-			body{			
+			body{		
 				background-image:url('images/background.jpg');
 				background-repeat:no-repeat;
 			}
